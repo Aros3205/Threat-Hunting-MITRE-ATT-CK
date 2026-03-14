@@ -10,6 +10,7 @@ For the purpose of this project, the United States financial sector was used as 
 The goal was to understand how threat intelligence can be gathered, analyzed, and mapped to the MITRE ATT&CK framework in order to support threat hunting and detection engineering activities.
 
 
+
 ## Understanding the MITRE ATT&CK Framework
 
 The MITRE ATT&CK framework is a knowledge base that documents how adversaries behave during cyber attacks.
@@ -26,6 +27,12 @@ Techniques describe how attackers achieve those goals.
 #### Procedures
 Procedures are the specific implementations used by threat actors to execute those techniques.
 
+
+
+![Mitre Framework](screenshots/mitre-att&ck-framework.png)
+
+
+
 Together, these form the well-known concept of TTPs (Tactics, Techniques, and Procedures) used in threat intelligence and threat hunting.
 
 
@@ -34,6 +41,9 @@ Together, these form the well-known concept of TTPs (Tactics, Techniques, and Pr
 Threat intelligence was gathered using SOC Radar to research APT groups associated with this Sector (Finance) of this region (United States of America)
 
 Although APT groups often operate across multiple industries and geographic regions, this project narrows the scope to the U.S. financial sector as a case study to demonstrate how threat intelligence research and TTP analysis can be conducted.
+
+
+![Threat Intelligence](screenshots/SOC-Radar-APT-research.png)
 
 
 #### Additional information about identified threat actors was gathered from:
@@ -50,6 +60,10 @@ Once relevant APT groups were identified, their documented TTPs were analyzed us
 This step allowed the techniques used by each threat group to be examined in relation to the attack lifecycle, providing insight into how adversaries operate during real-world attacks.
 
 
+![TTP Research](screenshots/MITRE-ATP-TTP.png)
+
+
+
 ## Mapping Techniques Using MITRE ATT&CK Navigator
 
 The identified techniques were then mapped using MITRE ATT&CK Navigator.
@@ -63,6 +77,9 @@ MITRE Navigator provides a visual way to:
 Each threat group was mapped as a separate layer in the Navigator.
 
 
+![Mapping Techniques](screenshots/MITRE-TTP-Mapping.png)
+
+
 ## Layering Multiple Threat Groups
 
 Multiple APT groups were added as layers within the MITRE Navigator matrix.
@@ -72,11 +89,17 @@ This allows analysts to compare different threat actors and observe how their te
 Layering adversaries makes it easier to identify patterns of behavior across different threat groups.
 
 
+![Multiple Layers](screenshots/MITRE-APT-TTP-Layers.png)
+
+
 ## Identifying TTP Overlap
 
 By layering multiple adversaries, it becomes possible to identify overlapping techniques.
 
 These overlapping techniques often represent common attacker behaviors, which are particularly valuable for defenders because detecting them can help identify multiple threat actors.
+
+
+![TTP Overlap](screenshots/MITRE-APT-TTP-Overlap.png)
 
 
 ## Intelligence Reporting
@@ -87,6 +110,9 @@ This report documents:
 - The APT groups analyzed
 - Their associated techniques
 - Overlapping techniques observed across adversaries
+
+
+![Intelligence Report](screenshots/Intelligence-Report.png)
 
 
 ## Supporting Detection Engineering
