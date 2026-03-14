@@ -11,6 +11,15 @@ The goal was to understand how threat intelligence can be gathered, analyzed, an
 
 
 
+## Threat Hunting Workflow
+
+#### Skills Demonstrated
+
+![The Workflow](screenshots/Threat-Hunting-workflow.png)
+
+
+
+
 ## Understanding the MITRE ATT&CK Framework
 
 The MITRE ATT&CK framework is a knowledge base that documents how adversaries behave during cyber attacks.
@@ -125,16 +134,6 @@ The final report can be used by security and purple teams to develop detection s
 
 Understanding adversary techniques allows security teams to design defenses that are aligned with real attacker behavior.
 
-### Threat Hunting Workflow
-
-#### Skills Demonstrated
-
-- Threat Intelligence Research
-- MITRE ATT&CK Framework Analysis
-- Threat Actor TTP Mapping
-- MITRE ATT&CK Navigator
-- Threat Hunting Methodology
-- Detection Engineering Concepts
 
 Author
 
