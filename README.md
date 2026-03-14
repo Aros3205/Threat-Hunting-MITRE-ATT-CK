@@ -11,12 +11,20 @@ The goal was to understand how threat intelligence can be gathered, analyzed, an
 
 
 
-## Threat Hunting Workflow
-
 #### Skills Demonstrated
 
-![The Workflow](screenshots/Threat-hunting-workflow.png)
 
+- Threat Intelligence Analysis
+ 
+- MITRE ATT&CK Framework
+
+- Threat Actors TTP Analysis
+
+- MITRE ATT&CK Navigator
+
+- Threat Hunting Methodology
+
+- Detection Engineering Concepts
 
 
 
@@ -43,6 +51,16 @@ Procedures are the specific implementations used by threat actors to execute tho
 
 
 Together, these form the well-known concept of TTPs (Tactics, Techniques, and Procedures) used in threat intelligence and threat hunting.
+
+
+
+## Threat Hunting Workflow
+
+
+
+![The Workflow](screenshots/Threat-hunting-workflow.png)
+
+
 
 
 ## Threat Intelligence Collection
@@ -137,6 +155,6 @@ Understanding adversary techniques allows security teams to design defenses that
 
 Author
 
-Richard A.
+Richard T. Arowobusoye
 
 Cybersecurity | Threat Hunting | Security Operations
