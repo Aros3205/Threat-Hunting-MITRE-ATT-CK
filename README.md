@@ -15,7 +15,7 @@ The goal was to understand how threat intelligence can be gathered, analyzed, an
 
 #### Skills Demonstrated
 
-![The Workflow](screenshots/Threat-Hunting-workflow.png)
+![The Workflow](screenshots/Threat-hunting-workflow.png)
 
 
 
